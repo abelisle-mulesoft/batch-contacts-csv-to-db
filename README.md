@@ -1,14 +1,13 @@
 # Mule 4 Batch Example - Contacts CSV File to Database
 
-This repository contains a Mule application created to explain and demonstrate how to implement a batch job in Mule 4. I did not implement it to address a specific use case but to serve as a comprehensive example that illustrates the art of the possible. There are many examples across the web and in blog posts. I committed it here as an example my peers could use when demoing those concepts.
+This repository contains a Mule application I created to explain and demonstrate how to implement a batch job in Mule 4. I did not implement it to address a specific use case but to serve as a comprehensive example that illustrates the art of the possible. There are many examples across the web and in blog posts. Nevertheless, I am sharing this example as it is more comprehensive than most, if not all.
 
-As the title implies, the Mule application reads contact data from a CSV file and inserts it into a database. In my demos, I upload my contact data to an SFTP server and leverage a PostgreSQL database. Naturally, you could change those as needed to meet your demo requirements.
+As the title implies, the Mule application reads contact data from a CSV file and inserts it into a database. Furthermore, it sends a summary report upon completion via email. In my demos, I upload my contact data to an SFTP server and leverage a PostgreSQL database and Gmail. Naturally, you could change those as needed to meet your demo requirements.
 
 ## Repository Content
 
 - The folder **anypoint-studio-project** includes the source code of the Mule application.
 - The folder **documentation** contains an [Overview](documentation/Overview.md) document, which provides additional details on the Mule application and its implementation.
-- The folder **postman-collection** includes a basic Postman collection for interacting with the Mule application. The Postman collection contains essential documentation to provide additional details.
 - The folder **resources** includes miscellaneous resources for setting up the environment - e.g., sample contact data, script for setting up the database. This folder contains a [README](resources/_README.md) file that provides additional details.
 
 ## Technology Stack Overview
